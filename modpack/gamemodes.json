@@ -1,0 +1,8 @@
+{
+  "modes": [
+    "standard",
+    "challenge"
+  ],
+  "default": "standard",
+  "common": "common"
+}

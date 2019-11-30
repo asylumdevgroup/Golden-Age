@@ -1,0 +1,41 @@
+# Add the following to your gitignore:
+
+# Instance Sync
+**/*.jar
+!InstanceSync*.jar
+**/*.jar.disabled
+**/*.jar.meta
+
+# Optional: Generic Modpack Ignores
+**/*.log
+/.mixin.out
+/saves
+/downloads
+/resourcepacks
+.curseclient
+options.txt
+mods/carpentersblocks/
+
+mods/PortalGunSounds.pak
+
+mods/PortalGunSounds.pak.md5
+
+logs/
+
+journeymap/
+
+fonts/
+
+asm/
+
+mod-config/
+
+betterfps.txt
+
+BotaniaVars.dat
+
+OpenComputersMod-1.7.4.1265-lua52-native.64.dll
+
+OpenComputersMod-1.7.4.1265-lua53-native.64.dll
+
+usernamecache.json
