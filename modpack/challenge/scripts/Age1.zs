@@ -50,3 +50,24 @@ recipes.addShaped(<ImmersiveEngineering:stoneDecoration:2> * 2,
  [[<ore:fuelCoke>, <minecraft:brick>, <ore:fuelCoke>],
   [<minecraft:brick>, <Railcraft:cube:4>, <minecraft:brick>],
   [<ore:fuelCoke>, <minecraft:brick>, <ore:fuelCoke>]]);
+
+//Water Wheel
+recipes.remove(<ImmersiveEngineering:woodenDevice:1>);
+recipes.addShaped(<ImmersiveEngineering:woodenDevice:1>,
+ [[null, <ImmersiveEngineering:material:1>, null],
+  [<ImmersiveEngineering:material:1>, <ore:stickSteel>, <ImmersiveEngineering:material:1>],
+  [null, <ImmersiveEngineering:material:1>, null]]);
+
+//Kinetic Dynamo
+recipes.remove(<ImmersiveEngineering:metalDevice:9>);
+recipes.addShaped(<ImmersiveEngineering:metalDevice:9>,
+ [[<ore:dustRedstone>, <ImmersiveEngineering:storage:8>, <ore:dustRedstone>],
+  [<ore:ingotSteel>, <minecraft:blaze_rod>, <ore:ingotSteel>],
+  [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+
+//Forge Hammer IC2
+recipes.remove(<IC2:itemToolForgeHammer>);
+recipes.addShaped(<IC2:itemToolForgeHammer>,
+ [[<ore:ingotCobalt>, <ore:ingotSteel>, null],
+  [<ore:ingotSteel>, <ImmersiveEngineering:material>, <ImmersiveEngineering:material>],
+  [<ore:ingotCobalt>, <ore:ingotSteel>, null]]);
