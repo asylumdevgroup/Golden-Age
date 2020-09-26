@@ -4972,6 +4972,11 @@ TwilightForest:tile.ForceField:1, Pink Force Field
 TwilightForest:tile.ForceField:2, Orange Force Field
 TwilightForest:tile.ForceField:3, Green Force Field
 TwilightForest:tile.ForceField:4, Blue Force Field
+TwilightForest:tile.CinderFurnaceIdle, tile.CinderFurnaceIdle.name
+TwilightForest:tile.CinderFurnaceLit, tile.CinderFurnaceLit.name
+TwilightForest:tile.CinderLog:0, tile.CinderLog.0.name
+TwilightForest:tile.CastleDoor:0, tile.CastleDoor.0.name
+TwilightForest:tile.CastleDoorVanished:0, tile.CastleDoorVanished.0.name
 chisel:aluminumblock:0, Block of Aluminum
 chisel:aluminumblock:1, Block of Aluminum
 chisel:aluminumblock:2, Block of Aluminum
@@ -6800,7 +6805,7 @@ extracells:vibrantchamberfluid, Fluid Vibration Chamber
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quacky Ender Device)
+ExtraUtilities:endConstructor:0, QED (Quadratic Equation Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -7860,11 +7865,6 @@ harvestcraft:pamwintersquashCrop, Winter Squash Crop
 harvestcraft:pamzucchiniCrop, Zucchini Crop
 harvestcraft:pambeetCrop, Beet Crop
 harvestcraft:pamonionCrop, Onion Crop
-harvestcraft:pamparsnipCrop, Parsnip Crop
-harvestcraft:pampeanutCrop, Peanut Crop
-harvestcraft:pamradishCrop, Radish Crop
-harvestcraft:pamrutabagaCrop, Rutabaga Crop
-harvestcraft:pamsweetpotatoCrop, Sweet Potato Crop
 minecraft:record_13, Music Disc
 minecraft:record_cat, Music Disc
 minecraft:record_blocks, Music Disc
@@ -7877,6 +7877,11 @@ minecraft:record_strad, Music Disc
 minecraft:record_ward, Music Disc
 minecraft:record_11, Music Disc
 minecraft:record_wait, Music Disc
+harvestcraft:pamparsnipCrop, Parsnip Crop
+harvestcraft:pampeanutCrop, Peanut Crop
+harvestcraft:pamradishCrop, Radish Crop
+harvestcraft:pamrutabagaCrop, Rutabaga Crop
+harvestcraft:pamsweetpotatoCrop, Sweet Potato Crop
 harvestcraft:pamturnipCrop, Turnip Crop
 harvestcraft:pamrhubarbCrop, Rhubarb Crop
 harvestcraft:pamceleryCrop, Celery Crop
@@ -8117,40 +8122,40 @@ GalacticraftMars:tile.marsDungeonBricksStairs, Mars Dungeon Brick Stairs
 GalacticraftMars:tile.hydrogenPipe, Hydrogen Pipe
 RedstoneArsenal:Storage:0, Fluxed Electrum Block
 RedstoneArsenal:Storage:1, Flux Crystal Block
-ThaumicTinkerer:fireChaos, Perditio Imbued Fire
-ThaumicTinkerer:fireWater, Aqua Imbued Fire
-ThaumicTinkerer:fireEarth, Terra Imbued Fire
-ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
-ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
-ThaumicTinkerer:nitorGas, tile.nitorGas.name
-ThaumicTinkerer:forcefield, Forcefield
-ThaumicTinkerer:warpGate, Celestial Gateway
-ThaumicTinkerer:animationTablet, Dynamism Tablet
-ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
-ThaumicTinkerer:fireOrder, Ordo Imbued Fire
-ThaumicTinkerer:fireAir, Aer Imbued Fire
-ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
-ThaumicTinkerer:enchanter, Osmotic Enchanter
 ThaumicTinkerer:fireFire, Ignis Imbued Fire
+ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:funnel, Essentia Funnel
 ThaumicTinkerer:gaseousShadow, tile.gaseousShadow.name
-ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
-ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
+ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:warpGate, Celestial Gateway
+ThaumicTinkerer:fireEarth, Terra Imbued Fire
+ThaumicTinkerer:fireOrder, Ordo Imbued Fire
 ThaumicTinkerer:repairer, Thaumic Restorer
-ThaumicTinkerer:magnet:0, Kinetic Attractor
-ThaumicTinkerer:magnet:1, Corporeal Attractor
-ThaumicTinkerer:golemConnector, Golem Connector
-ThaumicTinkerer:spawner, Tablet of Necromancy
-ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:Levitational Locomotive, Levitational Locomotive
 ThaumicTinkerer:platform, Ethereal Platform
+ThaumicTinkerer:bedrockPortal, Bedrock Portal
+ThaumicTinkerer:nitorGas, tile.nitorGas.name
+ThaumicTinkerer:infusedFarmland, tile.infusedFarmland.name
+ThaumicTinkerer:fireWater, Aqua Imbued Fire
+ThaumicTinkerer:aspectAnalyzer, Aspectalyzer
 ThaumicTinkerer:dislocator, Transvector Dislocator
+ThaumicTinkerer:forcefield, Forcefield
+ThaumicTinkerer:fireAir, Aer Imbued Fire
 ThaumicTinkerer:darkQuartz:0, Block of Smokey Quartz
 ThaumicTinkerer:darkQuartz:1, Chiseled Smokey Quartz Block
 ThaumicTinkerer:darkQuartz:2, Pillar Smokey Quartz Block
-ThaumicTinkerer:darkQuartzSlab:0, Smokey Quartz Slab
-ThaumicTinkerer:darkQuartzSlabFull:0, Smokey Quartz Slab
+ThaumicTinkerer:spawner, Tablet of Necromancy
+ThaumicTinkerer:infusedGrainBlock, tile.infusedGrainBlock.name
+ThaumicTinkerer:gaseousLight, tile.gaseousLight.name
+ThaumicTinkerer:enchanter, Osmotic Enchanter
+ThaumicTinkerer:golemConnector, Golem Connector
+ThaumicTinkerer:animationTablet, Dynamism Tablet
+ThaumicTinkerer:magnet:0, Kinetic Attractor
+ThaumicTinkerer:magnet:1, Corporeal Attractor
 ThaumicTinkerer:darkQuartzStairs, Smokey Quartz Stairs
-ThaumicTinkerer:funnel, Essentia Funnel
-ThaumicTinkerer:interface, Transvector Interface
+ThaumicTinkerer:fireChaos, Perditio Imbued Fire
+ThaumicTinkerer:Levitational Locomotive Relay, Levitational Locomotive Relay
 MagicBees:magicbees.enchantedEarth, Enchanted Earth
 MagicBees:hive:0, Curious Hive
 MagicBees:hive:1, Unusual Hive
@@ -8732,8 +8737,8 @@ OpenComputers:endstone:0, End Stone
 OpenComputers:netSplitter:0, Net Splitter
 OpenComputers:transposer:0, Transposer
 OpenComputers:carpetedCapacitor:0, Carpeted Capacitor
-OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:ticketmachine, Ticket Machine
+OpenPeripheral:peripheralproxy, Peripheral Proxy
 OpenPeripheral:glassesbridge, Terminal Glasses Bridge
 OpenPeripheral:pim, PIM
 OpenPeripheral:sensor, Sensor
@@ -10531,6 +10536,8 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Pink Castle Rune Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Blue Castle Rune Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Yellow Castle Rune Brick
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Violet Castle Rune Brick
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.CinderLog.0.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.CastleDoor.0.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminum
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Aluminum
@@ -12140,10 +12147,10 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Desh
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Mars Stone
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Fluxed Electrum Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Flux Crystal Block
+appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Block of Smokey Quartz
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Chiseled Smokey Quartz Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Pillar Smokey Quartz Block
-appliedenergistics2:item.ItemFacade:0, Cable Facade - Smokey Quartz Slab
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Curious Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Unusual Hive
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Resonating Hive
@@ -24325,6 +24332,9 @@ ThermalDynamics:cover:0, Pink Force Field Cover
 ThermalDynamics:cover:0, Orange Force Field Cover
 ThermalDynamics:cover:0, Green Force Field Cover
 ThermalDynamics:cover:0, Blue Force Field Cover
+ThermalDynamics:cover:0, tile.CinderLog.0.name Cover
+ThermalDynamics:cover:0, tile.CastleDoor.0.name Cover
+ThermalDynamics:cover:0, tile.CastleDoorVanished.0.name Cover
 ThermalDynamics:cover:0, Block of Aluminum Cover
 ThermalDynamics:cover:0, Block of Aluminum Cover
 ThermalDynamics:cover:0, Block of Aluminum Cover
@@ -26870,22 +26880,22 @@ ThermalDynamics:cover:0, Mars Cobblestone Stairs Cover
 ThermalDynamics:cover:0, Mars Dungeon Brick Stairs Cover
 ThermalDynamics:cover:0, Fluxed Electrum Block Cover
 ThermalDynamics:cover:0, Flux Crystal Block Cover
-ThermalDynamics:cover:0, Perditio Imbued Fire Cover
-ThermalDynamics:cover:0, Aqua Imbued Fire Cover
-ThermalDynamics:cover:0, Terra Imbued Fire Cover
-ThermalDynamics:cover:0, tile.gaseousLight.name Cover
-ThermalDynamics:cover:0, tile.nitorGas.name Cover
-ThermalDynamics:cover:0, Ordo Imbued Fire Cover
-ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Ignis Imbued Fire Cover
 ThermalDynamics:cover:0, tile.gaseousShadow.name Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, Terra Imbued Fire Cover
+ThermalDynamics:cover:0, Ordo Imbued Fire Cover
 ThermalDynamics:cover:0, Bedrock Portal Cover
+ThermalDynamics:cover:0, tile.nitorGas.name Cover
+ThermalDynamics:cover:0, Aqua Imbued Fire Cover
+ThermalDynamics:cover:0, Aer Imbued Fire Cover
 ThermalDynamics:cover:0, Block of Smokey Quartz Cover
 ThermalDynamics:cover:0, Chiseled Smokey Quartz Block Cover
 ThermalDynamics:cover:0, Pillar Smokey Quartz Block Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
-ThermalDynamics:cover:0, Smokey Quartz Slab Cover
+ThermalDynamics:cover:0, tile.gaseousLight.name Cover
 ThermalDynamics:cover:0, Smokey Quartz Stairs Cover
+ThermalDynamics:cover:0, Perditio Imbued Fire Cover
 ThermalDynamics:cover:0, Enchanted Earth Cover
 ThermalDynamics:cover:0, Curious Hive Cover
 ThermalDynamics:cover:0, Unusual Hive Cover

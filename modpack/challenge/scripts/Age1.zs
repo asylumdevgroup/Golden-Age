@@ -39,7 +39,7 @@ recipes.addShaped(<ImmersiveEngineering:coil> * 2,
 
 //Rock Crusher
 recipes.remove(<Railcraft:machine.alpha:15>);
-recipes.addShaped(<Railcraft:machine.alpha:15>,
+recipes.addShaped(<Railcraft:machine.alpha:15> * 4,
  [[<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>],
   [<ore:gemDiamond>, <ore:blockIron>, <ore:gemDiamond>],
   [<minecraft:piston>, <ore:gemDiamond>, <minecraft:piston>]]);
