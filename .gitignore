@@ -49,3 +49,11 @@ OpenComputersMod-1.7.5.1290-lua53-native.64.dll
 backups/
 
 crash-reports/
+
+falsepattern/
+
+*.dll
+
+.ReAuth.cfg
+
+imgui.ini
